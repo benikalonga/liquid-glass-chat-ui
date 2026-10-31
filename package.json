@@ -51,8 +51,7 @@
     "lint": "expo lint",
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.mjs tests/*.test.cjs",
-    "verify": "npm run typecheck && npm run lint && npm test",
-    "test:ios": "bash scripts/test-ios.sh"
+    "verify": "npm run typecheck && npm run lint && npm test"
   },
   "private": true,
   "reanimated": {

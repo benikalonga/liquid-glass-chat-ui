@@ -29,4 +29,4 @@ The two cookbooks preserve different interaction systems. They share native glas
 
 Controls use `expo-glass-effect` and Apple's native iOS 26 material. Portraits use custom Skia shaders to refract their local photographs. Keep native glass ancestors visible: zero opacity can disable Apple's effect. The source includes fallbacks, but this gallery targets iOS.
 
-Motion validation is documented in `VERIFICATION.md`. Simulator captures demonstrate behavior and visual continuity; they are not a physical-device frame-rate benchmark.
+Motion was validated with simulator captures, which demonstrate behavior and visual continuity; they are not a physical-device frame-rate benchmark.

@@ -171,9 +171,8 @@ These are Expo Router screens, not standalone navigation containers. When copyin
 assets/cookbooks/fable/       Portraits and story photographs
 assets/cookbooks/astra/       Portraits and coastal photograph
 assets/images/               App icon
-docs/                        Motion, provenance, verification, and previews
+docs/                        Motion and asset provenance
 prompts/                     Integration and artwork recipes
-scripts/maestro/             Native interaction checks
 src/app/                     Gallery and thin Expo Router adapters
 src/cookbooks/fable/          Cookbook 1 (Fable)
 src/cookbooks/astra/          Cookbook 2 (Astra)
@@ -188,15 +187,7 @@ npm run verify
 npx expo-doctor
 ```
 
-`verify` runs strict TypeScript, Expo ESLint, and regression tests for rapid submissions, unknown recipients, blank messages, reactions, read state, reset behavior, storage isolation, route adapters, asset integrity, and documentation links. [GitHub Actions](./.github/workflows/ci.yml) also exports the iOS JavaScript bundle.
-
-With a native build installed and Maestro available:
-
-```bash
-SIMULATOR_UDID=<your-device-id> npm run test:ios
-```
-
-Native flows cover both cookbooks. Optional compact-layout checks are in `scripts/maestro-layouts/`; `scripts/verify-stories.py` uses an IDB companion for gestures inside the six-second story window. The test device, commands, results, and limitations are recorded in [Verification](./docs/VERIFICATION.md). For motion review, record the device with `scripts/record-ios.sh`; raw recordings and test output stay in ignored `.qa/`.
+`verify` runs strict TypeScript, Expo ESLint, and regression tests for rapid submissions, unknown recipients, blank messages, reactions, read state, reset behavior, storage isolation, route adapters, asset integrity, and documentation links.
 
 ## Frequently asked questions
 

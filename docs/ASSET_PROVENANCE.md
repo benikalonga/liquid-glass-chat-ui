@@ -10,7 +10,6 @@ Only runtime assets and documentation artwork belong in this repository. The sup
 | `assets/cookbooks/astra/photos/coast.png` | Coastal landscape | Generated original coastal photograph. |
 | `assets/images/icon.png` | Three glass spheres | Original procedural app mark from the Astra source. |
 | `docs/images/appllama-logo-*.png` | Appllama light/dark branding | Appllama's Liquid Glass Screens repository. |
-| `docs/images/*-inbox.png`, `*-stories.png`, `*-circle.png`, `*-chat.png` | Cookbook previews | Direct simulator captures of this repository. |
 
 The SHA-256 inventory in `asset-manifest.json` covers runtime artwork. `npm test` checks that each file exists, matches its checksum, and is referenced by the runtime code or app configuration. Story assets for contacts without an active story can be shared from their conversation.
 

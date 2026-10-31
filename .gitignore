@@ -1,4 +1,4 @@
-# Keep .github/workflows/, source, assets, docs, prompts, tests, and the lockfile.
+# Keep source, assets, docs, prompts, tests, and the lockfile.
 
 # Dependencies and package caches
 node_modules/
