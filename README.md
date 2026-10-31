@@ -31,25 +31,11 @@
 
 ### Cookbook 1 (Fable)
 
-<table><tr>
-<td><img src="./docs/images/fable-inbox.png" width="270" alt="Fable inbox with collapsed portrait cluster"></td>
-<td><img src="./docs/images/fable-stories.png" width="270" alt="Fable expanded story rail"></td>
-<td><img src="./docs/images/fable-chat.png" width="270" alt="Fable conversation with floating glass composer"></td>
-</tr></table>
-
 A compact portrait cluster unfolds into a horizontally scrolling story rail. Conversations sit in a quiet rounded panel, with dark outgoing bubbles and a floating native glass composer. Open a story, share its photo, or type a message and receive a local sample reply.
 
 ### Cookbook 2 (Astra)
 
-<table><tr>
-<td><img src="./docs/images/astra-inbox.png" width="270" alt="Astra inbox with search and conversation filters"></td>
-<td><img src="./docs/images/astra-circle.png" width="270" alt="Astra expanded portrait ribbon"></td>
-<td><img src="./docs/images/astra-chat.png" width="270" alt="Astra glass conversation and coastal photograph"></td>
-</tr></table>
-
 A reversible ribbon fans out from the header. The selected portrait travels into the conversation while the page fades around it. Native glass bubbles, a keyboard-following composer, photo zoom, and heart reactions complete the flow.
-
-<p align="center"><sub>Previews are direct iPhone simulator captures of this implementation.</sub></p>
 
 | Cookbook | Route | Source | Artwork | Integration prompt |
 | --- | --- | --- | --- | --- |
