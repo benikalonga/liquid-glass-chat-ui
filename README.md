@@ -1,3 +1,5 @@
+> **Note:** This is a copy of [Appllama/liquid-glass-chat-ui](https://github.com/Appllama/liquid-glass-chat-ui), kept for AI code-review research. All credit goes to the original authors. Licensed under the original [MIT License](./LICENSE). See [UPSTREAM.md](./UPSTREAM.md) for details.
+
 <p align="center">
   <a href="https://appllama.io">
     <picture>
