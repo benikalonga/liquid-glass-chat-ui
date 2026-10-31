@@ -1,6 +1,6 @@
 # Upstream / Attribution
 
-This repository is a copy of **[Appllama/liquid-glass-chat-ui](https://github.com/Appllama/liquid-glass-chat-ui)**, used for an AI code-review research project.
+This repository is a copy of **[Appllama/liquid-glass-chat-ui](https://github.com/Appllama/liquid-glass-chat-ui)**.
 
 - Original repository: https://github.com/Appllama/liquid-glass-chat-ui
 - Copied from branch `main` at commit [`56255e64906e`](https://github.com/Appllama/liquid-glass-chat-ui/commit/56255e64906ee7b33fac9ae3d4a486f20bb8e258) on 2026-10-31
